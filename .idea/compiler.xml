@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pdf" />
+        <module name="htmlcss_to_pdf" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="htmlcss_to_pdf" options="-Xlint:all" />
       <module name="pdf" options="-Xlint:all" />
     </option>
   </component>
